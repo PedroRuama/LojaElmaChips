@@ -2,25 +2,13 @@
 body{
     margin: 0;
     padding: 0px;
-}
-h1{
-    color: black;
-}
-a{
-    text-decoration: none;
-    color: orangered;
-}
-.center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    background-image: url("../imgs/backgrund_image4.jpg");
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
     width: 100vw;
-    font-family: Arial, Helvetica, sans-serif;
-    flex-direction: column;
-    
+    height: 100vh;
 }
-
 #opacity{
     width: 100vw;
     height: 100vh;
@@ -30,6 +18,45 @@ a{
     opacity: 0.8;
     
 }
+h1{
+    color: white;
+    margin: 0;
+    display: flex;
+    padding: 30px;
+}
+#logo{
+    width: 120px;
+    height: 70px;
+   
+    display: flex;
+    object-fit: contain;
+   
+   
+    
+    
+    
+}
+#logo-title-div{
+    display: flex;
+    width: 650px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: orangered;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    
+}
+
 #back_img{
     height: 100%;
     width: 100%;
@@ -107,17 +134,18 @@ tr:hover{
 
 tr.colorir {
     transition: 0.3s;
-    background-color:rgb(228, 162, 62);
+    background-color:rgb(228, 131, 62);
     
 }
 
 
 #table{
-    height: auto;
+    max-height: 400px;
     width: auto;
     display: flex;
     border-radius: 10px;
     overflow: hidden;
+    
     
    
 }

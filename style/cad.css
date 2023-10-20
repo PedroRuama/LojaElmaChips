@@ -1,8 +1,16 @@
 body {
-    background-color: rgb(238, 169, 140);
+   
     font-family: Arial;
     margin: 0;
     padding: 0px;
+    
+    padding: 0px;
+    background-image: url("../imgs/backgrund_image2.jpg");
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
 a{
     text-decoration: none;
@@ -125,7 +133,7 @@ img{
 }
 
 #componentes {
-    width: 40vw;
+    width: 450px;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
