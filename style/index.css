@@ -134,7 +134,7 @@ tr:hover{
 
 tr.colorir {
     transition: 0.3s;
-    background-color:rgb(228, 62, 62);
+    background-color:rgb(95, 230, 83);
     
 }
 
@@ -222,7 +222,7 @@ tr.colorir {
 }
 
 .input-group_input:is(:focus) {
-    outline-color: rgb(199, 21, 21);
+    outline-color: rgb(224, 49, 49);
 }
 
 
