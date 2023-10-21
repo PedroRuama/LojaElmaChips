@@ -44,7 +44,7 @@ h1{
 
 a{
     text-decoration: none;
-    color: orangered;
+    color: red;
 }
 .center{
     display: flex;
@@ -105,7 +105,7 @@ th{
     text-align: center;
     /* display: flex; */
     color: white;
-    background-color: rgb(206, 89, 21);
+    background-color: rgb(199, 21, 21);
     
     /* align-items: center;
     justify-content: center; */
@@ -129,12 +129,12 @@ tr:nth-child(even) {
 } 
 tr:hover{
     transition: 0.5s;
-    background-color: rgb(233, 162, 120);
+    background-color: rgb(233, 120, 120);
 }
 
 tr.colorir {
     transition: 0.3s;
-    background-color:rgb(228, 131, 62);
+    background-color:rgb(228, 62, 62);
     
 }
 
@@ -174,7 +174,7 @@ tr.colorir {
     padding: 10px;
     margin: 15px;
     background-color: whitesmoke;
-    color: orangered;
+    color:red;
     border-radius: 8px;
     font-weight: bold;
     border: none;
@@ -222,7 +222,7 @@ tr.colorir {
 }
 
 .input-group_input:is(:focus) {
-    outline-color: orangered;
+    outline-color: rgb(199, 21, 21);
 }
 
 
