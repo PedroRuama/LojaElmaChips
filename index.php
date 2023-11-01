@@ -40,7 +40,7 @@
     
 </head>
     <script src="scripts/index.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+ 
 <body>
     <div id="opacity"> .</div>
     <div class="center">
